@@ -1,0 +1,41 @@
+.header {
+  max-width: 60rem;
+  margin: auto;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list {
+  display: flex;
+  gap: 1rem;
+}
+
+.list a {
+  text-decoration: none;
+  color: var(--color-primary-400);
+}
+
+.list a:hover,
+.list a.active {
+  color: var(--color-primary-800);
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+  padding: 0.5rem 1.5rem;
+  border-radius: 4px;
+  background-color: transparent;
+  color: var(--color-gray-300);
+  border: none;
+}
+
+button:hover {
+  background-color: var(--color-gray-800);
+}
+
+.rightContainer {
+  display: inline-flex;
+  align-items: center;
+}
